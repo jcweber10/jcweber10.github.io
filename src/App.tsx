@@ -60,7 +60,7 @@ export const App: React.VFC = () => {
 
       <Switch>
         <Route
-          path="/*"
+          path="*"
           component={() => {
             window.location.href = 'https://www.laughingatmynightmare.com/';
             return null;
