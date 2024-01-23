@@ -7,7 +7,7 @@ interface PageNotFoundProps {
 
 export const PageNotFound: React.VFC<PageNotFoundProps> = ({ location }) => (
   <P>
-    Page not found - the path, <code>{location.pathname}</code>, did not match
-    any React Router routes.
+    Sorry there! Page not found - the path, <code>{location.pathname}</code>,
+    did not match any React Router routes.
   </P>
 );
