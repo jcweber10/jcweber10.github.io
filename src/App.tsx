@@ -59,6 +59,13 @@ export const App: React.VFC = () => {
       </BreadcrumbsNav>
 
       <Switch>
+        <Route
+          path="/*"
+          component={() => {
+            window.location.href = 'https://www.laughingatmynightmare.com/';
+            return null;
+          }}
+        />
         <Route exact path="/" component={Home} />
         <Route exact path="/example" component={ExampleComponent} />
         <Route
