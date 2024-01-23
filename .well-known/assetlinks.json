@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.laughingatmynightmare.vr.android.staging",
+    "sha256_cert_fingerprints":
+    ["1B:3A:3D:D9:47:D4:CE:E3:54:1F:1E:E5:E9:A0:45:EC:E0:75:2E:D6:A4:C6:F5:54:42:2C:C4:E3:79:ED:D9:09"]
+  }
+}]
