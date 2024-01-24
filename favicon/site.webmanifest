@@ -1,13 +1,13 @@
 {
-    "name": "spa-github-pages",
+    "name": "LAMN",
     "icons": [
         {
-            "src": "/favicon/green-grid-144-168-192-512x512.png",
+            "src": "/favicon/lamn_logo.jpg",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
     "theme_color": "#000000",
-    "background_color": "#007800",
+    "background_color": "#000000",
     "display": "browser"
 }
