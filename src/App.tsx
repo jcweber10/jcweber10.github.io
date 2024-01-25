@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { globalCss, styled } from './stitches.config';
-import { Home } from './components/Home';
+import { HomeRedirectComponent } from './components/Home';
 
 const AppContainer = styled('div', {
   maxWidth: '540px',
@@ -15,14 +15,7 @@ export const App: React.VFC = () => {
   return (
     <AppContainer>
       <Switch>
-        <Route
-          // path="*"
-          component={() => {
-            window.location.href =
-              'https://www.laughingatmynightmare.com/5kfun';
-            return null;
-          }}
-        />
+        <Route component={HomeRedirectComponent} />
       </Switch>
     </AppContainer>
   );
