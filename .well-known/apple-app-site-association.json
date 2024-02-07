@@ -10,8 +10,8 @@
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                },
               {
-                  "/": "/joinCode*",
-                  "?": { "joinCode": "*" },
+                  "/": "/joinTeam*",
+                  "?": { "teamId": "*" },
                   "comment": "Matches any URL with a path that starts with /joinCode/ and that has a query item with name 'articleNumber' and a value of exactly four characters."
                }
              ]
