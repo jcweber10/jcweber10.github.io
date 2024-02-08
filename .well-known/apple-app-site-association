@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "com.laughingatmynightmare.vr" ],
+             "appIDs": [ "2PQ3YSAXXN.com.laughingatmynightmare.vr" ],
              "components": [
               {
                   "/": "/joinTeam/*"
