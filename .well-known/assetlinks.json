@@ -1,9 +1,26 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.laughingatmynightmare.vr.android.staging",
-    "sha256_cert_fingerprints":
-    ["1B:3A:3D:D9:47:D4:CE:E3:54:1F:1E:E5:E9:A0:45:EC:E0:75:2E:D6:A4:C6:F5:54:42:2C:C4:E3:79:ED:D9:09"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.laughingatmynightmare.vr.android.staging",
+      "sha256_cert_fingerprints": [
+        "1B:3A:3D:D9:47:D4:CE:E3:54:1F:1E:E5:E9:A0:45:EC:E0:75:2E:D6:A4:C6:F5:54:42:2C:C4:E3:79:ED:D9:09"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.laughingatmynightmare.vr.android",
+      "sha256_cert_fingerprints": [
+        "64:6E:0D:1F:C5:F7:B4:FC:AE:84:5E:11:0E:C9:79:76:BC:14:C6:37:32:F5:12:81:EA:3C:1C:E4:39:BB:E7:23"
+      ]
+    }
   }
-}]
+]
